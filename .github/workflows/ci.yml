@@ -12,7 +12,7 @@ jobs:
       - name: Deploy to desafio4.surge.sh
         uses: dswistowski/surge-sh-action@v1
         with:
-          domain: 'desafio3.surge.sh'
+          domain: 'desafio4.surge.sh'
           project: '.'
           login: ${{ secrets.surge_login }}
           token: ${{ secrets.surge_token }}
